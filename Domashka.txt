@@ -1,0 +1,15 @@
+#!/bin/bash
+
+z_date=$(date +"%H%M%S")
+for run in {1..10}
+do
+
+number=$run
+file="${number}${tdate}"
+touch $file
+done
+
+
+
+#15 * * * * /opt/040423_evening/Julia_Miller/taskJULIA.sh
+
